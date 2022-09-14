@@ -35,17 +35,20 @@ body {
 }
 
 #display {
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding: 0 1.5rem;
   color: white;
   font-size: 32px;
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ 
+  
 }
 
 #countdown {
@@ -193,6 +196,9 @@ button {
     padding: 0 20px;
     width: 100%;
   }
+  #display{
+    padding-left: 1rem;
+  }
   #histories{
     display: flex;
   }
@@ -200,3 +206,5 @@ button {
     flex-direction: column;
   }
 }
+
+
