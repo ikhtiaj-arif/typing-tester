@@ -208,3 +208,11 @@ button {
 }
 
 
+.blog-link{
+  background-color: antiquewhite;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #171717;
+}
